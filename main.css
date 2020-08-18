@@ -1,0 +1,76 @@
+img {
+  filter: blur(2px);
+}
+
+img:hover {
+  filter: none;
+}
+
+h6:hover {
+  transform: scale(1.1);
+}
+
+.navTitle {
+  cursor: default;
+  font-size: 30px;
+  margin: 0 15px 0 0;
+  font-weight: border;
+}
+
+.navHome {
+  transform: none;
+  cursor: pointer;
+  margin: 5px 5px 0 5px;
+  font-size: 24px;
+}
+
+.card {
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+#data-panel {
+  margin: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0px red;
+}
+
+#favorite {
+  padding: 20px;
+}
+
+#document {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+#favoriteList {
+  display: flex;
+  flex-flow: column;
+  line-height: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.block {
+  display: none;
+}
+
+.likeName {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.likeName:hover {
+  color: blue;
+}
+
+.listAvatar {
+  width: 50px;
+  margin: 5px;
+}
